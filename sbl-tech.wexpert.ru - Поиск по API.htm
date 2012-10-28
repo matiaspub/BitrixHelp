@@ -50,11 +50,13 @@
 				}
 				ob.content = ob.trigger+'('+prms+')';
 				ob.module = module;
-				obstr = '{"trigger": "'+ob.trigger+'", "contents": "'+ob.content+'\\n$0", "module": "'+ob.module+'"},';
+				obstr = '{"trigger": "'+ob.trigger+'", "contents": "'+ob.content+'\\n$0", "module": "'+ob.module+'", "help":"'+help+'"'+'", "path":"'+link+'"'+"},\n";
 				// console.log(obstr);
 				// $('#content_container_ver h2:first').text('');
-				$('#content_container_ver h2:first').append('<br/>');
-				$('#content_container_ver h2:first').append(obstr);
+				var tax = $('<textarea id="tax"></textarea>');
+				$('body').prepend(tax);
+				// $('#content_container_ver h2:first').append('<br/>');
+				tax.append(obstr);
 			});
 			completions = completions + obstr;
 		});
