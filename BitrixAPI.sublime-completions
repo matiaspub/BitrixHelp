@@ -2289,8 +2289,8 @@
 		{"trigger": "CIBlockElement::GetByID", "contents": "${1:CIBlockElement}::GetByID(${2:\\$ID})$0"},
 		{"trigger": "CIBlockElement::GetElementGroups", "contents": "${1:CIBlockElement}::GetElementGroups(${2:\\$ID}, ${2:\\$bElementOnly = false})$0"},
 		{"trigger": "CIBlockElement::GetIBVersion", "contents": "${1:CIBlockElement}::GetIBVersion(${2:\\$iblock_id})$0"},
-		{"trigger": "CIBlockElement::GetList", "contents": "${1:CIBlockElement}::GetList(${2:\\$arOrder=array('SORT'=>'ASC')}, ${2:\\$arFilter=array()}, ${4:\\$arGroupBy=false}, ${4:\\$arNavStartParams=false}, ${6:\\$arSelectFields=array()})$0"},
-		{"trigger": "CIBlockElement::GetProperty", "contents": "${1:CIBlockElement}::GetProperty(${2:\\$IBLOCK_ID}, ${2:\\$ELEMENT_ID}, ${4:\\$by='sort'}, ${4:\\$order='asc'}, ${6:\\$arFilter = array()})$0"},
+		{"trigger": "CIBlockElement::GetList", "contents": "${1:CIBlockElement}::GetList(${2:\\$arOrder=array('SORT'=>'ASC')}, ${3:\\$arFilter=array()}, ${4:\\$arGroupBy=false}, ${5:\\$arNavStartParams=false}, ${6:\\$arSelectFields=array()})$0"},
+		{"trigger": "CIBlockElement::GetProperty", "contents": "${1:CIBlockElement}::GetProperty(${2:\\$IBLOCK_ID}, ${3:\\$ELEMENT_ID}, ${4:\\$by='sort'}, ${5:\\$order='asc'}, ${6:\\$arFilter = array()})$0"},
 		{"trigger": "CIBlockElement::GetRandFunction", "contents": "${1:CIBlockElement}::GetRandFunction()$0"},
 		{"trigger": "CIBlockElement::GetRealElement", "contents": "${1:CIBlockElement}::GetRealElement(${2:\\$ID})$0"},
 		{"trigger": "CIBlockElement::GetShowedFunction", "contents": "${1:CIBlockElement}::GetShowedFunction()$0"},
@@ -7328,7 +7328,7 @@
 		{"trigger": "CWorkflowStatus::GetNextSort", "contents": "${1:CWorkflowStatus}::GetNextSort()$0"},
 		{"trigger": "CWorkflowStatus::SetPermissions", "contents": "${1:CWorkflowStatus}::SetPermissions(${2:\\$STATUS_ID}, ${2:\\$arGroups}, ${4:\\$PERMISSION_TYPE = 1})$0"},
 		{"trigger": "CWorkflowStatus::Update", "contents": "${1:CWorkflowStatus}::Update(${2:\\$ID}, ${2:\\$arFields})$0"},
-		{"trigger": "CWorkflowStatus::err_mess", "contents": "${1:CWorkflowStatus}::err_mess()$0""}
+		{"trigger": "CWorkflowStatus::err_mess", "contents": "${1:CWorkflowStatus}::err_mess()$0"}
 
 	]
 }
