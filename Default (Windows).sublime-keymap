@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+alt+b", "ctrl+alt+b"], "command": "bitrix_help"},
+	{ "keys": ["ctrl+alt+b", "ctrl+alt+c"], "command": "bitrix_help", "args": {"it": "bitrixComponents"}}
+]
