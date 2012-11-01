@@ -61,11 +61,17 @@ It contains redefine standart keys as ctrl++(encrease font size), but you can ch
 
 ### Complations
 
-For complation in $APPLICATION->IncludeComponent($componentName, $componentName, $arParams = array(), $arParams = array(), $arFunctionParams = array())
+For complation in 
+````
+$APPLICATION->IncludeComponent($componentName, $componentName, $arParams = array(), $arParams = array(), $arFunctionParams = array())
+````
 Type APPincom + Tab, or choose complation in drop-down select + Enter
 Its work for objects $APPLICATION, $USER and $DB
 
-For complation in CIBlockElement::GetList($arOrder=array('SORT'=>'ASC'), $arFilter=array(), $arGroupBy=false, $arNavStartParams=false, $arSelectFields=array())
+For complation in 
+````
+CIBlockElement::GetList($arOrder=array('SORT'=>'ASC'), $arFilter=array(), $arGroupBy=false, $arNavStartParams=false, $arSelectFields=array())
+````
 Type CIblElGetli + Tab, or choose complation in drop-down select + Enter
 
 ### API Help
