@@ -1,5 +1,5 @@
-﻿# BitrixHelp 
-## [Sublime] Text 2 plugin for some helps in work with [Bitrix] CMS
+# BitrixHelp
+### [Sublime] Text 2 plugin help in work with [Bitrix] CMS
 
 Feauters:
 
